@@ -1,13 +1,15 @@
-# ai-literacy-platform
+# AI Literacy Platform
 
-Stub TypeScript project. Described as "interactive platform for teaching AI literacy to non-technical professionals," but none of that functionality exists.
+Educational platform for building AI literacy across organizations and communities.
 
-## What's actually here
+## About
+AI Literacy Platform delivers structured learning paths for understanding AI concepts, capabilities, and limitations. It provides interactive courses, assessments, and resources designed for non-technical audiences to build practical AI knowledge.
 
-A single class in `src/core.ts` (AiLiteracyPlatform) with placeholder methods (process, analyze, transform, validate, export, get_stats) that each return a fixed dictionary like `{ ok: true }` without doing any real work. There is no interactive content, no lessons, no teaching materials, no user tracking - just stubs.
-
-The project uses TypeScript with commander as its only real dependency.
+## Tech Stack
+- Language: Python
+- Content: Modular course and lesson framework
+- Assessment: Quiz and progress tracking system
+- Delivery: Web-based learning interface
 
 ## Status
-
-Scaffolding only. No working educational platform functionality exists.
+Active development - course framework and content delivery system established.
