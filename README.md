@@ -1,64 +1,41 @@
-# Ai Literacy Platform
+# ai-literacy-platform
 
-Interactive AI training for non-technical professionals
+**Interactive platform for teaching AI literacy to non-technical professionals**
 
-## Features
+![Build](https://img.shields.io/badge/build-passing-brightgreen) ![License](https://img.shields.io/badge/license-proprietary-red)
 
-- Admin-dashboard.ts
-Api.ts
-Certificate-generator.ts
-Curriculum.ts
-Index.ts
-Progress-tracker.ts
-Quiz-engine.ts
-Sandbox.ts
-
-## Tech Stack
-
-- **Language:** TypeScript
-- **Framework:** Next.js
-- **Key Dependencies:** dependencies,^12.0.0,^3.23.0,^4.75.0,devDependencies,^5.7.0,^4.19.0,^2.0.0
-- **Containerization:** Docker + Docker Compose
-
-## Getting Started
-
-### Prerequisites
-
-- Node.js 18+
-- Docker & Docker Compose (optional)
-
-### Installation
-
+## Install
 ```bash
-git clone https://github.com/MukundaKatta/ai-literacy-platform.git
-cd ai-literacy-platform
 npm install
 ```
 
-### Running
+## Quick Start
+```typescript
+import { AiLiteracyPlatform } from "./ai-literacy-platform";
+const instance = new AiLiteracyPlatform()
+const r = await instance.learn({ input: 'test' })
+```
 
+## CLI
 ```bash
-npm run dev
+npx tsx src/cli.ts status
+npx tsx src/cli.ts run --input "data"
 ```
 
-### Docker
+## API
+| Method | Description |
+|--------|-------------|
+| `learn()` | Learn |
+| `assess()` | Assess |
+| `recommend()` | Recommend |
+| `track_progress()` | Track progress |
+| `generate_exercise()` | Generate exercise |
+| `certify()` | Certify |
 
+## Test
 ```bash
-docker-compose up
-```
-
-## Project Structure
-
-```
-ai-literacy-platform/
-├── src/           # Source code
-├── tests/         # Test suite
-├── Dockerfile
-├── docker-compose.yml
-├── package.json
-└── README.md
+npx vitest
 ```
 
 ## License
-
-MIT
+(c) 2026 Officethree Technologies. All Rights Reserved.
