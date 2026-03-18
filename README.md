@@ -1,39 +1,13 @@
 # ai-literacy-platform
 
-**Interactive platform for teaching AI literacy to non-technical professionals**
+Stub TypeScript project. Described as "interactive platform for teaching AI literacy to non-technical professionals," but none of that functionality exists.
 
-![Build](https://img.shields.io/badge/build-passing-brightgreen) ![License](https://img.shields.io/badge/license-proprietary-red)
+## What's actually here
 
-## Install
-```bash
-npm install
-```
+A single class in `src/core.ts` (AiLiteracyPlatform) with placeholder methods (process, analyze, transform, validate, export, get_stats) that each return a fixed dictionary like `{ ok: true }` without doing any real work. There is no interactive content, no lessons, no teaching materials, no user tracking - just stubs.
 
-## Quick Start
-```typescript
-import { AiLiteracyPlatform } from "./ai-literacy-platform";
-const instance = new AiLiteracyPlatform()
-const r = await instance.learn({ input: 'test' })
-```
+The project uses TypeScript with commander as its only real dependency.
 
-## CLI
-```bash
-npx tsx src/cli.ts status
-npx tsx src/cli.ts run --input "data"
-```
+## Status
 
-## API
-| Method | Description |
-|--------|-------------|
-| `learn()` | Learn |
-| `assess()` | Assess |
-| `recommend()` | Recommend |
-| `track_progress()` | Track progress |
-| `generate_exercise()` | Generate exercise |
-| `certify()` | Certify |
-
-## Test
-```bash
-npx vitest
-```
-
+Scaffolding only. No working educational platform functionality exists.
