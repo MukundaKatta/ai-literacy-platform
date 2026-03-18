@@ -1,30 +1,64 @@
-# ai-literacy-platform
+# Ai Literacy Platform
 
-**Interactive AI training for non-technical professionals**
+Interactive AI training for non-technical professionals
 
-## Install
+## Features
+
+- Admin-dashboard.ts
+Api.ts
+Certificate-generator.ts
+Curriculum.ts
+Index.ts
+Progress-tracker.ts
+Quiz-engine.ts
+Sandbox.ts
+
+## Tech Stack
+
+- **Language:** TypeScript
+- **Framework:** Next.js
+- **Key Dependencies:** dependencies,^12.0.0,^3.23.0,^4.75.0,devDependencies,^5.7.0,^4.19.0,^2.0.0
+- **Containerization:** Docker + Docker Compose
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18+
+- Docker & Docker Compose (optional)
+
+### Installation
+
 ```bash
+git clone https://github.com/MukundaKatta/ai-literacy-platform.git
+cd ai-literacy-platform
 npm install
 ```
 
-## Quick Start
-```typescript
-import { VERSION } from "./src/index.js";
+### Running
+
+```bash
+npm run dev
 ```
 
-## Modules
-- **curriculum**
-- **sandbox**
-- **quiz-engine**
-- **progress-tracker**
-- **certificate-generator**
-- **admin-dashboard**
-- **api**
+### Docker
 
-## Docker
 ```bash
-docker compose up
+docker-compose up
+```
+
+## Project Structure
+
+```
+ai-literacy-platform/
+├── src/           # Source code
+├── tests/         # Test suite
+├── Dockerfile
+├── docker-compose.yml
+├── package.json
+└── README.md
 ```
 
 ## License
-(c) 2026 Officethree Technologies. All Rights Reserved.
+
+MIT
